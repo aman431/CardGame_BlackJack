@@ -1,0 +1,108 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background: #c8c6c6;
+}
+.main{
+	display: flex;
+	padding: 10px;
+	color: red;
+}
+.box{
+	width: 200px;
+	height: 300px;
+	color: black;
+	background: #44aa9a;
+	margin-left:5px;
+	transition: 2s;
+	box-sizing: border-box;
+	box-shadow: gray 4px 4px 8px;
+	border: 1px solid  black;
+}
+.box:hover{
+	background: darkorange;
+	transform: scale(1.1);
+}
+.user1_card1{
+	position: relative;
+	color: black;
+	height: 200px;
+	width: 300px;
+	font-size: 20px;
+	padding-top: 20px;
+	background: #44aa9a;
+	box-sizing: border-box;
+	box-shadow: gray 4px 4px 8px;
+	border: 1px solid black;
+}
+
+.user2_card1{
+	position: relative;
+	color: black;
+	height: 200px;
+	width: 300px;
+	padding-top: 20px;
+	font-size: 20px;
+	background: #44aa9a;
+	box-sizing: border-box;
+	box-shadow: gray 4px 4px 8px;
+	border: 1px solid black;
+}
+.user{
+	display: flex;
+	position: relative;
+	text-align: center;
+	justify-content: space-around;
+	top: -240px;
+}
+.dealer{
+	position: relative;
+	width: 500px;
+	height: 50px;
+	margin-left: 190px;
+	padding: 40px;
+	top: -260px;
+	font-size: 30px;
+	text-align: center;
+	background: #6fd76f;
+	border: 1px solid white;
+}
+
+.button{
+	position: relative;
+	width: 80px;
+	height: 25px;
+	background: #44aa9a;
+	padding: 15px;
+	top: -380px;
+	border: 1px solid white;
+	border-radius: 25px;
+	margin-left: 800px;
+	cursor: pointer;
+	transition: 2s;
+	font-size: 17.5px;
+}
+.button:hover{
+	background: green;
+	transform: scale(1.1);
+}
+.reset{
+	position: relative;
+	width: 80px;
+	height: 25px;
+	background: #44aa9a;
+	padding: 15px;
+	top: -360px;
+	border: 1px solid white;
+	border-radius: 25px;
+	margin-left: 800px;
+	cursor: pointer;
+	transition: 2s;
+	font-size: 18px;
+}
+.reset:hover{
+	background: green;
+	transform: scale(1.1);
+}
